@@ -1,0 +1,58 @@
+body {
+  padding-top: 20px;
+}
+
+h1 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+form{
+  margin: 0 auto;
+  width:800px;
+}
+
+.submit_message_2, .submit_message{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.submit_message{
+  margin-top:80px;
+}
+.message button{
+  font-size: 15px;
+}
+.body button{
+  font-size: 20px;
+}
+
+input[type='checkbox'] {
+  -webkit-appearance:none;
+  width:15px;
+  height:15px;
+  background:white;
+  border-radius:100%;
+  border:2px solid #555;
+  margin-right: 3px;
+}
+input[type='checkbox']:checked {
+  background:brown;
+}
+input[type='text'] {
+  height:30px;
+  width:200px;
+
+}
+
+select{
+  width:200px;
+}

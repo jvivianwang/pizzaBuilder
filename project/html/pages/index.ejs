@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <% include ../helpers/head %>
+</head>
+
+<body class="container">
+
+  <main>
+    <div class="intro">
+      <center><image class= "pizzaImg" src="images/pizza.png" style="width:12%;"></image></center>
+      <h1>BUILD YOUR OWN PIZZA</h1>
+      <h5>Select your favourite toppings below and we will take care of the rest!</h5>
+    </div>
+    <br>
+    <form method="post" action="/user">
+      <div class="body">
+        <h4 class="name">
+          Name <input type="text" name="name" required>
+        </h4>
+        <div class="size">
+          <h4>Size&nbsp;
+            <select name="size">
+              <option name ="size" class = "size" value=7.99>Small ($7.99)</option>
+              <option name ="size" class = "size" value=9.99>Medium ($9.99)</option>
+              <option name ="size" class = "size" value=11.99>Large ($11.99)</option>
+            </select>
+          </h4>
+        </div>
+        <div class="crust">
+          <h4>Crust&nbsp;
+            <select name="crust">
+              <option name ="crust" value="thin">Thin Crust</option>
+              <option name ="crust" value="thick">Thick Crust</option>
+            </select>
+          </h4>
+        </div>
+        <div class="topping">
+          <h4>Toppings<br>
+            <input type="checkbox" class = "topping" name="topping" value=1.00>Cheese ($1.00)&nbsp;
+            <input type="checkbox" class = "topping" name="topping" value=1.00>Veggie ($1.00)&nbsp;
+            <input type="checkbox" class = "topping" name="topping" value=1.00>Mushroom ($1.00)&nbsp;
+            <input type="checkbox" class = "topping" name="topping" value=1.99>Sausage ($1.99)&nbsp;
+            <input type="checkbox" class = "topping" name="topping" value=1.99>Chicken ($1.99)&nbsp;
+            <input type="checkbox" class = "topping" name="topping" value=1.99>Bacon ($1.99)&nbsp;<br>
+          </h4>
+        </div>
+        <div class="question">
+          <h4>Anything else you hope to let us know?</h4>
+          <textarea name = "question" rows="8" cols="100"></textarea><br>
+        </div><br>
+        <center><button type="submit" value="Submit">Submit</button></center>
+      </div>
+      <div class = "message">
+        <p class="submit_message" >
+        </p>
+        <p class="submit_message_2" >
+          Thank you for choosing us and your pizza is on your way!
+        </p>
+        <center><button class ="back_home" type="submit" value="submit">Back to home<a href="pages/index" ></a></button></center>
+      </div>
+    </form>
+  </main>
+
+</body>
+</html>

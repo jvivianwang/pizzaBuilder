@@ -1,0 +1,28 @@
+
+GET http://localhost:5000/user
+
+###
+
+GET http://localhost:5000/user/5d81789943738a2dd316ac9c
+
+###
+POST http://localhost:5000/user
+Content-Type: application/json
+
+{
+    "name": "lily",
+    "size": "medium",
+    "crust": "thin crust",
+    "topping": "mushroom"
+}
+
+###
+DELETE  http://localhost:5000/user/5d8178b9312a3c2e03410a5f
+
+###
+PATCH  http://localhost:5000/user/5d817aa3c91afd2ec69a91da
+Content-Type: application/json
+
+{
+    "name": "newVivian"
+}
