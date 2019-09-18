@@ -22,7 +22,7 @@ Run these commands in your directory:
 
 ## Review server output
 1. Run database: ```mongod```
-2. Start the server: ```node project/start.js``` or ```npm start```
+2. Start the server: ```node project/start.js```
 
 ## Test the website in your Browser
 Open a browser to http://localhost:5000 to test the application. The website should look the same as https://pizzabuilderapp.herokuapp.com/
